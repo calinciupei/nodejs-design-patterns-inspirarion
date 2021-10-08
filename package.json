@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-design-patterns-inspiration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/calinciupei/nodejs-design-patterns-inspirarion.git",
+  "author": "calinciupei <calinciupei@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "Node.js",
+    "Design Patterns",
+    "Book",
+    "Learn and inspiration from Packt Publishing Node.js Design Patterns Third Edition"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
