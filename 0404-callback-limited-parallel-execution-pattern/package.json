@@ -1,0 +1,10 @@
+{
+  "name": "0404-callback-control-flow-patterns-with-callback",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "main": "index.js",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "0405-queue-control-flow-patterns-with-callback",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "main": "main.js",
+  "type": "module",
+  "license": "MIT"
+}
