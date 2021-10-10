@@ -1,0 +1,23 @@
+{
+  "name": "0402-web-spider-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "type": "module",
+  "engineStrict": true,
+  "keywords": [
+    "Node.js",
+    "Design Patterns",
+    "Book",
+    "Learn and inspiration from Packt Publishing Node.js Design Patterns Third Edition"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "mkdirp": "^1.0.4",
+    "slug": "^5.1.0",
+    "superagent": "^6.1.0"
+  }
+}
